@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ac392dbb-4956-4469-b37c-7c64a645fc63" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:63086/ServiceValidacao.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceValidacao.xsd" MetadataType="Schema" ID="289f760b-60d6-4824-b46f-fdce5529f72e" SourceId="1" SourceUrl="http://localhost:63086/ServiceValidacao.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="a173f279-2f91-4e18-8507-dee58e4ab1ae" SourceId="1" SourceUrl="http://localhost:63086/ServiceValidacao.svc?wsdl" />
+    <MetadataFile FileName="ServiceValidacao.disco" MetadataType="Disco" ID="45f63c71-9902-41f5-8421-324a9e403eef" SourceId="1" SourceUrl="http://localhost:63086/ServiceValidacao.svc?disco" />
+    <MetadataFile FileName="ServiceValidacao1.xsd" MetadataType="Schema" ID="5cb5afa2-8f35-402e-85e0-5bc8e00e91ce" SourceId="1" SourceUrl="http://localhost:63086/ServiceValidacao.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceValidacao2.xsd" MetadataType="Schema" ID="a672a72d-bde0-464e-ae66-9c93bf7b8fe5" SourceId="1" SourceUrl="http://localhost:63086/ServiceValidacao.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
